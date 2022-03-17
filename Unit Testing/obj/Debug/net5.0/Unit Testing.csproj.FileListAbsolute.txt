@@ -1,0 +1,16 @@
+C:\Users\laith alamat\source\repos\Unit Testing\Unit Testing\bin\Debug\net5.0\Unit Testing.exe
+C:\Users\laith alamat\source\repos\Unit Testing\Unit Testing\bin\Debug\net5.0\Unit Testing.deps.json
+C:\Users\laith alamat\source\repos\Unit Testing\Unit Testing\bin\Debug\net5.0\Unit Testing.runtimeconfig.json
+C:\Users\laith alamat\source\repos\Unit Testing\Unit Testing\bin\Debug\net5.0\Unit Testing.runtimeconfig.dev.json
+C:\Users\laith alamat\source\repos\Unit Testing\Unit Testing\bin\Debug\net5.0\Unit Testing.dll
+C:\Users\laith alamat\source\repos\Unit Testing\Unit Testing\bin\Debug\net5.0\ref\Unit Testing.dll
+C:\Users\laith alamat\source\repos\Unit Testing\Unit Testing\bin\Debug\net5.0\Unit Testing.pdb
+C:\Users\laith alamat\source\repos\Unit Testing\Unit Testing\obj\Debug\net5.0\Unit Testing.csproj.AssemblyReference.cache
+C:\Users\laith alamat\source\repos\Unit Testing\Unit Testing\obj\Debug\net5.0\Unit Testing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laith alamat\source\repos\Unit Testing\Unit Testing\obj\Debug\net5.0\Unit Testing.AssemblyInfoInputs.cache
+C:\Users\laith alamat\source\repos\Unit Testing\Unit Testing\obj\Debug\net5.0\Unit Testing.AssemblyInfo.cs
+C:\Users\laith alamat\source\repos\Unit Testing\Unit Testing\obj\Debug\net5.0\Unit Testing.csproj.CoreCompileInputs.cache
+C:\Users\laith alamat\source\repos\Unit Testing\Unit Testing\obj\Debug\net5.0\Unit Testing.dll
+C:\Users\laith alamat\source\repos\Unit Testing\Unit Testing\obj\Debug\net5.0\ref\Unit Testing.dll
+C:\Users\laith alamat\source\repos\Unit Testing\Unit Testing\obj\Debug\net5.0\Unit Testing.pdb
+C:\Users\laith alamat\source\repos\Unit Testing\Unit Testing\obj\Debug\net5.0\Unit Testing.genruntimeconfig.cache
