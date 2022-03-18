@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Unit_Testing
 {
@@ -33,17 +33,38 @@ namespace Unit_Testing
                         break;
                     case 2:
                         Console.Clear();
-                        Withdraw();
+                        try
+                        {
+                        Console.WriteLine("Please Enter the Ammount you wish to Withdraw...");
+                        decimal input = decimal.Parse(Console.ReadLine());
+                        Withdraw(input);
+                        }
+                        catch (FormatException e)
+                        {
+                            Console.WriteLine("Please enter a valid number...");
+                            Console.WriteLine(e.Message);
+                        }
                         break;
                     case 3:
                         Console.Clear();
-                        Deposit();
+                        try
+                        {
+                            Console.WriteLine("Please Enter the Amount you Wish to Deposit...");
+                            decimal input = decimal.Parse(Console.ReadLine());
+                            Deposit(input);
+                        }
+                        catch (FormatException e)
+                        {
+                            Console.WriteLine("Please enter a valid number...");
+                            Console.WriteLine(e.Message);
+                        }
                         break;
                     
                 }
             }
             else if (num == 4)
             {
+                Console.Clear();
                 Console.WriteLine("Thank you fo using our ATM!");
 
             }
@@ -66,20 +87,11 @@ namespace Unit_Testing
             return balance;
             }
 
-        public static void Withdraw()
+        public static decimal Withdraw(decimal input)
         {
             Console.Clear();
-            decimal input = 0;
-            try
-            {
-                Console.WriteLine("Please Enter the Ammount you wish to Withdraw...");
-                input = decimal.Parse(Console.ReadLine());
-            }
-            catch (FormatException e)
-            {
-                Console.WriteLine("Please enter a valid number...");
-                Console.WriteLine(e.Message);
-            }
+             
+           
             if(input<=balance)
             {
                 balance = balance - input;
@@ -96,22 +108,13 @@ namespace Unit_Testing
                 UserInterface();
 
             }
+            return balance;
         }
-        static void Deposit()
+        public static decimal Deposit(decimal input)
         {
             Console.Clear();
-            decimal input = 0;
 
-            try
-            {
-                Console.WriteLine("Please Enter the Amount you Wish to Deposit...");
-                input = decimal.Parse(Console.ReadLine());
-            }
-            catch (FormatException e)
-            {
-                Console.WriteLine("Please enter a valid number...");
-                Console.WriteLine(e.Message);
-            }
+            
             if (input > 0) { 
                 balance = balance + input;
 
@@ -126,7 +129,9 @@ namespace Unit_Testing
                 Console.WriteLine("");
                 UserInterface();
             }
+            return balance;
+            
         }
 
-        }
+     }
 }
